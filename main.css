@@ -1,0 +1,114 @@
+/* 
+/*{background-color: antiquewhite;}
+* applies to the whole page when * used  
+    */
+
+
+/* box-sizing: border-box; padding: 5px 50px 5px 50px;  */
+/*padding top,left,bottom, right 
+
+ fonts.google.com - find a font i like for titles and one for main text. select this style, view selected family in top right
+ @import for the syntax to copy into css without the <style> bits. add all fonts to the top of this doc. 
+ 
+ gimp to change images 
+ */
+
+ /* stops links from changing colour and being underlined */
+ a:link {
+    text-decoration: none; color:inherit}
+  a:visited {
+    text-decoration: none; color: inherit;} 
+  a:hover {
+    text-decoration: none; color: inherit;}
+  a:active {
+    text-decoration: none; color: inherit;}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {background-image: url(Images/Budapest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    font-size: 25;
+}
+
+
+h1 {color:rgb(160, 26, 26);
+    font-size:100px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+ } 
+h2 {color:brown;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h4 {color: rgb(214, 107, 31);
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 15px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 2%;
+    line-height: 85%;
+    background: rgba(233, 179, 79, 0.982)
+    ;
+    
+}
+
+.para1 {
+    color: rgb(61, 24, 5);
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.picture_me {
+    border-radius: 8px;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#vegas {
+    display: flex;
+    flex-direction: column;
+    
+}
+.vegas {border-radius:25px;
+    padding:10px;
+    width: 600px;
+    height: 700px;
+    }
+
+#toronto {
+    display: flex;
+    flex-direction: column;
+}
+.Toronto1 {
+    border-radius: 25px;
+    padding:10px;
+    width: 600px;
+    height: 700px;
+    
+}
+
+
+
+/* flexbox for the menu at the top of the index page + images on previous */
+*  {
+    box-sizing: border-box;
+}
+.box {
+    color:white;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding:15px;
+
+}
+
+
+
+

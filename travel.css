@@ -1,0 +1,66 @@
+
+
+
+body {background-color: beige;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+h1 {color:rgb(160, 26, 26);
+    font-size:100px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+ } 
+
+ h2 {color:rgb(167, 53, 53);
+    font-size:30px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h3 {color:brown;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+p {color: rgb(187, 63, 63);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    ;
+
+}
+
+.body {display:none;
+}
+
+input:checked + .body {
+    display:block
+}
+
+label {color: rgb(220, 44, 44);
+        font-size: 30px;
+        display:inline-block;
+        width: 100%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+input {display:none}
+
+*  {
+    box-sizing: border-box;
+}
+.box {
+    
+    padding:15px;
+    
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
